@@ -27,7 +27,7 @@ Using the AnimationNavPage we can demonstrate how to create a custom transition 
 Setting-up and using the component happens in 3 steps:	
 1.	Install nuget package for PCL/Net.Standard, IOS and Android projects
 2.	Declare AnimationNavigationPage
-3.	Create and Animation page
+3.	Create an Animation page
 
 ## INSTALL
 Download the package from https://www.nuget.org/packages/XForms.Plugin.AnimationNavigationPage.
@@ -74,7 +74,7 @@ public class App : Application
         }
 }
 ```
-## CREATE AND ANIMATION PAGE
+## CREATE AN ANIMATION PAGE
 There are 3 ways to create an Animation Page:
 1.	Implement the IAnimationPage interface
 2.	Use XAML Tags - No Binding
