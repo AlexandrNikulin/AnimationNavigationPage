@@ -29,7 +29,6 @@ namespace FormsControls.Droid
 
         protected override void OnElementChanged(ElementChangedEventArgs<NavigationPage> e)
         {
-            base.OnElementChanged(e);
             if (e.OldElement != null)
             {
                 UnsubscribeFromNavigationEvents(e.OldElement);
@@ -39,6 +38,7 @@ namespace FormsControls.Droid
                 _hepler.UnsubscribeFromStandardNavigationEvents(e.NewElement);
                 SubscribeToNavigationEvents(e.NewElement);
             }
+            base.OnElementChanged(e);
         }
 
         protected override void Dispose(bool disposing)
