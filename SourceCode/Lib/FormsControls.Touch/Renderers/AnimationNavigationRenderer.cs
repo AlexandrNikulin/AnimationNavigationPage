@@ -10,7 +10,7 @@ using Xamarin.Forms.Platform.iOS;
 
 namespace FormsControls.Touch
 {
-    internal class AnimationNavigationRenderer : NavigationRenderer
+    public class AnimationNavigationRenderer : NavigationRenderer
     {
         private readonly IPageAnimation _popToRootAnimation = new SlidePageAnimation();
         private readonly UISwipeGestureRecognizer _swipeLeftRecognizer;
